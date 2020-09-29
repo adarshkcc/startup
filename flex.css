@@ -1,0 +1,22 @@
+img{
+	width: 400px;
+	height: 450px;
+	margin: 5px;
+}
+div{
+	display: flex;
+	flex-wrap: wrap;
+}
+h1{
+	border-bottom: 3px solid pink;
+	width: 400px;
+	text-align: center;
+	border-right: 2px solid pink;
+	font-family: fantasy;
+box-shadow: 4px 4px 5px brown;
+}
+img:hover{
+	transition: all 1s;
+	transform: scale(1.1);
+
+}
