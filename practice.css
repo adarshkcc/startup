@@ -1,0 +1,39 @@
+h1:hover{
+	text-align: center;
+	background: rgba(255,0,0,0.5);
+	border: 3px dashed brown;
+}
+p{
+	font-family: sans-serif;
+	background: purple;
+	cursor: pointer;
+}
+ol{
+	animation: pulse 2s 2;
+
+	color: black;
+	font-size: 28px;
+	font-style: italic;
+
+
+}
+@keyframes pulse{
+	0%{
+		color: #3f0609;
+		transform: scale(0.3);
+		border-radius: 100%;
+
+	}
+	100%{
+		color: #6a2300;
+	}
+}
+.id{
+	background: purple;
+	font-style: italic;
+
+}
+body{
+	background-image: url(adarsh.jpg);
+	background-size: cover;
+}
